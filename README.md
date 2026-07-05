@@ -68,7 +68,7 @@ This unified dataset is used for both machine learning and graph-based modeling.
 ---
 
 ##  How It Works
-
+ 
 ### 🔹 Step 1: User Input
 - Select Drug  
 - Select Clinical Indication  
@@ -85,6 +85,7 @@ This unified dataset is used for both machine learning and graph-based modeling.
 
 ### 🔹 Step 3: Model Development
 
+
 #### 🟢 Stacking Model (Experimental Phase)
 - Base models:
   - XGBoost
@@ -98,7 +99,7 @@ This unified dataset is used for both machine learning and graph-based modeling.
 ---
 
 #### 🔵 RGCN Model (Final Deployed Model)
-
+<img width="1436" height="631" alt="image" src="https://github.com/user-attachments/assets/129cdcbf-dbcf-48ee-94e7-fd8c9fdccd12" />
 - Data is converted into a **graph structure**
 - Nodes:
   - Drug
@@ -163,6 +164,9 @@ The models were evaluated using:
 - Donut Chart → Average Confidence  
 
 These visualizations help users interpret predictions effectively.
+<img width="759" height="416" alt="image" src="https://github.com/user-attachments/assets/b9762b33-57d3-4d7d-80cb-009950768b85" />
+
+<img width="760" height="421" alt="image" src="https://github.com/user-attachments/assets/823d626f-dec4-442b-ab82-e6653cd82dd9" />
 
 ---
 
@@ -209,6 +213,17 @@ The RGCN model serves as the final deployed model, while stacking models provide
 👉 Streamlit App:  
 https://adverse-drug-reactionpredictionsystem-zcapb6bza78xtaqriz96nv.streamlit.app/
 
+<img width="1452" height="787" alt="image" src="https://github.com/user-attachments/assets/0b8a0dec-fa4b-45fb-a18b-d7af461cffaa" />
+
+
+<img width="1464" height="804" alt="image" src="https://github.com/user-attachments/assets/843ddd23-38b6-4875-8792-a644167376d2" />
+
+<img width="1442" height="787" alt="image" src="https://github.com/user-attachments/assets/4323cfe0-9529-4ae1-afff-f3262b23d612" />
+
+
+<img width="1449" height="787" alt="image" src="https://github.com/user-attachments/assets/ae49979d-a577-4b84-8b13-1a5223209f1c" />
+
+<img width="1441" height="789" alt="image" src="https://github.com/user-attachments/assets/58ab9cd1-27a7-49ae-bb45-403194e99975" />
 
 
 ## ⭐ If you like this project
